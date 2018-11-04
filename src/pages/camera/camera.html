@@ -1,0 +1,18 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Câmera</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+
+    <ion-content padding>
+        <button ion-button color="dark" (click)="takePhoto()">Take Photo</button>
+        <img [src]="imageURL" *ngIf="imageURL" />
+    </ion-content>
+
+</ion-content>
